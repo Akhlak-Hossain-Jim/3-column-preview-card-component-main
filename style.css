@@ -45,6 +45,11 @@ main .container {
   place-items: center;
   overflow: hidden;
 }
+@media (max-width: 970px) {
+  main .container {
+    padding: 50px !important;
+  }
+}
 @media (max-width: 775px) {
   main .container {
     grid-template-columns: 1fr 1fr;
